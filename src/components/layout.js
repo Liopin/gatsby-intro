@@ -4,7 +4,7 @@ import Header from './header';
 import Helmet from 'react-helmet';
 import useSiteMetadata from '../hooks/use-sitemetadate';
 
-
+  
 const Layout = ({ children }) => {
   const {title, description} = useSiteMetadata();
   return (
