@@ -27,7 +27,7 @@ const TextBox = styled('div')`
     font-size: 2.25rem;
     }
     
-  p, a{
+  p, a{cd 
     color: #222;
     margin-top: 0;
   }
