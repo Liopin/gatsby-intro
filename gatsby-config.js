@@ -8,6 +8,7 @@ module.exports = {
         'gatsby-plugin-emotion',
         'gatsby-plugin-react-helmet',
         'gatsby-transformer-sharp',
+        'gatsby-plugin-sharp',
 
         {
             resolve: 'gatsby-plugin-mdx',
@@ -18,18 +19,18 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-source-filesystem`,
+            resolve: 'gatsby-source-filesystem',
             options:{
-                name:`posts`,
-                path: `posts`,
+                name:'posts',
+                path: 'posts',
             },
         },
-        `gatsby-transformer-remark`,
+        'gatsby-transformer-remark',
         {
-            resolve: `gatsby-source-filesystem`,
+            resolve: 'gatsby-source-filesystem',
             options:{
-                name:`images`,
-                path: `images`,
+                name:'images',
+                path: 'images',
             },
         },
     ],
